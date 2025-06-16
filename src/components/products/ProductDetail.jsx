@@ -8,7 +8,7 @@ export default function ProductDetail() {
   const [selectedImage, setSelectedImage] = useState(0);
   const [zoomEnabled, setZoomEnabled] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [setImageSize] = useState({ width: 0, height: 0 });
+  const [imageSize, setImageSize] = useState({ width: 0, height: 0 });
 
   useEffect(() => {
     fetch(`http://127.0.0.1:3000/products/${id}`)
