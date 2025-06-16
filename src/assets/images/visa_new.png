@@ -1,0 +1,2095 @@
+
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    
+
+<!-- Start New Relic Browser Monitoring -->
+
+    <script src="/Scripts/NewRelic/BrowserMonitoringNR_Prod.min.js?v=20250611224321" defer></script>
+<!-- End New Relic Browser Monitoring  -->
+
+    <script nonce="U3RvcmVBbmFseXRpY3M" data-cfasync="false" type="text/javascript">
+        window.znodeDataLayer = window.znodeDataLayer || [];
+    </script>
+    <!-- Google Tag Manager -->
+    <script nonce="U3RvcmVBbmFseXRpY3M" data-cfasync="false" type="text/javascript">
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window, document, 'script', 'znodeDataLayer', 'GTM-5C28G2Q');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+    <script src="/bundles/jquery?v=pekdvrHHOhUrqBbsX5_l9tpZ0Zp2AxSuk0km-PrWaw81"></script>
+
+    
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=1.0" />
+
+
+<title>Visa404</title>
+        <meta property="og:image" content="https://spponeimages.azureedge.net/prod/557662bd-eaee-478f-9da3-5b3eb08bf658logo.jpg" />
+            <meta name="description" content="Visa404" />
+        <meta name="keywords" content="Visa404">
+
+<link href="https://spponeimages.azureedge.net/prod/b5c50798-f885-4c1b-bb56-939de434e12bfavicon.ico" rel="shortcut icon" type="image/x-icon" onerror="this.onerror = null; this.src = 'favicon.ico'">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="INDEX,FOLLOW" />
+
+<link rel="canonical" href="https://www.merchantsignage.visa.com/assets/png/visa_logo_blue.png" />
+<link href="/Views/Themes/RedPanda/Content/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+<link href="/Views/Themes/PurplePlatypus-RedPanda_child/Content/css/site.css?v=20250611145316" rel="stylesheet" />
+<style>
+    @font-face {
+    font-family: 'VisaDialectRegular';
+    src: url("https://spponeimages.azureedge.net/prod/ef3d8348-ffad-4d73-b41d-3f98e6f098cbVisaDialect-Regular.woff2?v=0") format("woff2"), url("https://spponeimages.azureedge.net/prod/c28c70dd-029c-4ba2-8b13-112cb1da2343VisaDialect-Regular.woff?v=0") format("woff");
+    font-weight: normal;
+    font-style: normal; }
+  
+  @font-face {
+    font-family: 'VisaDialectBold';
+    src: url("https://spponeimages.azureedge.net/prod/0287a66b-2235-4ec8-b86d-6b5cddc2d5a4VisaDialect-Bold.woff2?v=0") format("woff2"), url("https://spponeimages.azureedge.net/prod/8540b03c-2c65-4a8c-9b14-8c05df2bb678VisaDialect-Bold.woff?v=0") format("woff");
+    font-weight: normal;
+    font-style: normal; }
+  
+  /* unhides Cart Quantity*/
+  span.headerQuantity {
+      display: inline;
+  }
+  
+  /* hides Tap to Pay Signage Kit department */
+  .topLevel a[href="/visapostaptopaysignagekit"] {
+      display: none;
+  }
+  
+  .topLevel a[href="/sweepstakes"] {
+      display: none;
+  }
+  
+  /* ---- */
+  
+  #skip-to-main:focus{
+  z-index:999;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'VisaDialectRegular', sans-serif;
+    font-weight: 300;
+    color: #1434cb; }
+  
+  .spotlight {
+    padding: 0; }
+  
+  .upper-header a {
+    color: #f7f7f7 !important;
+  font-size: 0.9em; }
+    .upper-header a:hover {
+      color: #fff; }
+  
+  .upper-header {
+    display: none;
+    flex-direction: row; }
+  
+  .upper-header .cart {
+  min-width: 4em;
+  }
+  
+  .upper-header > div {
+    align-items: baseline;
+    font-weight: 300; }
+  
+  .lower-header .header-logo svg, .lower-header .header-logo img {
+      max-width: 120px;}	
+  
+  .input-checkbox_container {
+    display: none; }
+  
+  .btn-bg-primary {
+    color: #fff !important; }
+  
+  .pd-color-selector.col-xs-12.nopadding {
+    display: none !important; }
+  
+  .your-pricing .btn-text-full {
+  background-color: #f7b600;
+  border-color: transparent;
+  }
+  
+  .checkout-login-asguest {
+      color: #fff !important;
+  }
+  
+  .cartSummary #checkOut-link {
+      background-color: #f7b600;
+      color: white;
+      border: none;
+  }
+  
+  #layout-account-dashboard a.btn-primary {
+      color: white;
+  }
+  
+  #view-option-productgrid .price {
+      display: none;
+  }
+  
+  #layout-product #breadCrumb {
+  font-weight: lighter;
+  }
+  
+ /* #layout-category .product-img .image .loader_plp {
+      min-height: 100% !important;
+  }*/
+
+  .product-list-widget .recent-view-items {
+  padding-top: 20px;
+  }
+  
+  #breadCrumb {
+    font-size: 1em !important; }
+  
+  .dashboard-content[data-test-selector="divPendingPaymentHistory"] {
+    display: none; }
+  
+  .product-grid.category-list {
+    display: none; }
+  
+  .hcbody, #csbody {
+    max-width: 1399px !important; }
+  
+  #Category aside.side-bar {
+    display: none; }
+  
+  #Category main.productListContainer {
+    width: 100%; }
+  
+  .cartPromocode {
+    display: none; }
+  
+  #layout-category .productGrid {
+  grid-gap: 3em;
+  justify-content: center;
+  }
+  #layout-category .productGrid li {
+  border: 1px solid #e0e0e0;
+/*  padding: 1em;*/
+  }
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #layout-category .productGrid li {
+  margin: 20px; }
+  .spotlight .slick-slide-img {
+  width: auto;
+  margin-left: -300px;}
+  }
+  @media screen and (min-width: 639px) {
+  .navigation nav .hasSub ul a {
+  width: 210px;
+  }
+  .navigation a.hasSub {
+      pointer-events: all;
+  }
+  .upper-header {
+    display: flex; }
+  }
+  
+  div#breadCrumb {
+    pointer-events: none; }
+  
+  .headerSubtotal {
+    visibility: hidden; }
+  
+  #pagingsearching {
+    display: none; }
+  
+  p.search-result {
+    display: none; }
+  
+  .product-img .image {
+    width: 100%;
+    margin: 0 auto; }
+  
+  #Quantity {
+    background-color: #f7b600;
+      color: #fff; }
+  .product .tierPriceItem, .product .tierPriceItem-s {
+  display: none;
+  }
+  .price {
+    font-size: 0.9em !important; }
+  
+  #layout-category .product-details .title {
+  text-transform: none; 
+  padding-top: 20px; 
+  color: #666; 
+  font-weight: lighter;}
+  
+  #layout-category .product-details .price {
+  font-weight: lighter;
+  }
+  .productOverview {
+    color: #5c5c5c;
+    font-weight: 300; }
+  
+  .productOverview h1 {
+    padding: 0; }
+  
+  #button-addtocart_17300 {
+    width: 100%; }
+  
+  .productOverview h1 {
+    font-size: 2em; }
+  
+  .product-number {
+    font-size: 14px; }
+  
+  .PriceWithCustomization.tierPricePrice.nooptional {
+    font-weight: 300 !important; }
+  
+  .product-short-description h3 {
+    color: #5c5c5c; }
+  
+  .product-item {
+    padding: 20px; }
+  
+  .home-opt-in {
+    display: none; }
+  
+  ul.secondLevel {
+      top: 67px;
+  }
+  
+  html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1em;
+    font-family: "VisaDialectRegular", sans-serif;
+    vertical-align: baseline; }
+  
+  h1, h2, h3, h4, h5, h6, .specialorder-ai h2 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline; }
+  
+  h2, h3, h4, h5, h6, .specialorder-ai h2 {
+    font-weight: normal; }
+  
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block; }
+  
+  ol, ul {
+    list-style: none; }
+  
+  blockquote, q {
+    quotes: none; }
+  
+  blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+  
+  q:before, q:after {
+    content: "";
+    content: none; }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0; }
+  
+  a, a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer; }
+  
+  input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: #f7b600;
+    padding: 10px;
+    color: #fff;
+    text-shadow: none;
+    text-decoration: none;
+    outline: none;
+    text-align: center;
+    display: inline-flex;
+    -webkit-transition: background-color 0.3s ease-in-out 0s;
+    -moz-transition: background-color 0.3s ease-in-out 0s;
+    -o-transition: background-color 0.3s ease-in-out 0s;
+    transition: background-color 0.3s ease-in-out 0s; }
+    input[type="submit"]:after {
+      content: url(https://spponeimages.azureedge.net/prod/7c1ea8ed-0c02-4bd9-9d70-c0432923c6b6favoriteIcon.png); }
+    input[type="submit"]:hover {
+      color: #fcc015; }
+      input[type="submit"]:hover:after {
+        content: url(https://spponeimages.azureedge.net/prod/bf5a2351-c0db-49ab-a122-a73baf09b2bcfavoriteIconBlue.png); }
+    input[type="submit"][disabled] {
+      opacity: 0.15; }
+  
+  .accessibleinvisible, .divParentAllowOnlyOne, .divBKParentAllowOnlyOne {
+    display: none; }
+  
+  header {
+    background: #1434cb;
+   }
+  
+  .upper-header {
+    background-color: #676767; }
+  
+  header #DesktopSearch .input-group .input-group-btn button {
+    margin-top: 5px; }
+  
+  header #DesktopSearch input {
+   min-width: 300px; }
+  
+  
+  button#btnSearchTerm {
+    background: #f7b600;
+    border: #f7b600; }
+  
+  .btn-primary, .btn-bg-primary {
+    background: #fcc015;
+    border-color: #fcc015; }
+  
+  .lower-header .right-side {
+    justify-content: flex-end; }
+  
+  .navigation nav li a {
+    color: #fff; 
+  font-size: 1.1em; 
+  font-weight: lighter;
+  padding: 1.4em 1em; }
+  
+  .navigation .hasSub ul li {
+    background: #f7b600;
+  color: #fff; }
+  
+  .navigation .hasSub ul li:hover {
+  background: #f7b600;
+    color: #000; }
+  
+  footer#layout-footer {
+    padding: 40px 0;
+    background: #f7f7f7; }
+  
+  .footerwrapper {
+    padding: 20px 0; }
+  
+  .container.footerLinks {
+    display: none !important; }
+  
+  .copyright {
+    display: none; }
+  
+  .footerCopyright {
+    background-color: #f7f7f7;
+    color: #666;
+    font-size: 0.7em;
+  font-weight: lighter; }
+  
+  .footercopy a {
+  color: #666;
+  font-weight: lighter;
+  }
+  
+  .privacy {
+    display: none; }
+  
+  /* Slick.css */
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent; }
+  
+  .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0; }
+  
+  .slick-list:focus {
+    outline: none; }
+  
+  .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand; }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  
+  .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  
+  .slick-track:before,
+  .slick-track:after {
+    display: table;
+    content: ''; }
+  
+  .slick-track:after {
+    clear: both; }
+  
+  .slick-loading .slick-track {
+    visibility: hidden; }
+  
+  .slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px; }
+  
+  [dir='rtl'] .slick-slide {
+    float: right; }
+  
+  .slick-slide img {
+    display: block; 
+  object-fit: none;
+  object-position:80%;
+  }
+  
+  .slick-slide.slick-loading img {
+    display: none; }
+  
+  .slick-slide.dragging img {
+    pointer-events: none; }
+  
+  .slick-initialized .slick-slide {
+    display: block; }
+  
+  .slick-loading .slick-slide {
+    visibility: hidden; }
+  
+  .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent; }
+  
+  .slick-arrow.slick-hidden {
+    display: none; }
+  
+  /* SlickTHEME.css */
+  /* Slider */
+  /* Icons */
+  @font-face {}
+  /* Arrows */
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent; }
+  
+  .slick-prev:hover,
+  .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent; }
+  
+  .slick-prev:hover:before,
+  .slick-prev:focus:before,
+  .slick-next:hover:before,
+  .slick-next:focus:before {
+    opacity: 1; }
+  
+  .slick-prev.slick-disabled:before,
+  .slick-next.slick-disabled:before {
+    opacity: .25; }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  
+  .slick-prev {
+    left: -25px; }
+  
+  [dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto; }
+  
+  .slick-prev:before {
+    content: '←'; }
+  
+  [dir='rtl'] .slick-prev:before {
+    content: '→'; }
+  
+  .slick-next {
+    right: -25px; }
+  
+  [dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px; }
+  
+  .slick-next:before {
+    content: '→'; }
+  
+  [dir='rtl'] .slick-next:before {
+    content: '←'; }
+  
+  /* Dots */
+  /*.slick-dotted.slick-slider
+  {
+      margin-bottom: 30px;
+  }*/
+  .slick-dots {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center; }
+  
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer; }
+  
+  .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent; }
+  
+  .slick-dots li button:hover,
+  .slick-dots li button:focus {
+    outline: none; }
+  
+  .slick-dots li button:hover:before,
+  .slick-dots li button:focus:before {
+    opacity: 1; }
+  
+  .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 50px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  
+  .slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black; }
+  
+  /* SLIDER ACTUAL STYLES */
+  .sliderImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    }
+    .sliderImage img {
+      flex-shrink: 0;
+      min-width: 100%;
+      min-height: 100%; }
+  
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2; }
+  
+  .slick-active {
+    opacity: .5; }
+  
+  .slick-current {
+    opacity: 1; }
+  
+  .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent; }
+  
+  .slick-list {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0;
+    padding: 0; }
+    .slick-list:focus {
+      outline: none; }
+    .slick-list.dragging {
+      cursor: pointer;
+      cursor: hand; }
+  
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
+  
+  .slick-track {
+    position: relative;
+    left: 0;
+    top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+    .slick-track:before, .slick-track:after {
+      content: "";
+      display: table; }
+    .slick-track:after {
+      clear: both; }
+    .slick-loading .slick-track {
+      visibility: hidden; }
+  
+  .slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    display: none; }
+    [dir="rtl"] .slick-slide {
+      float: right; }
+    .slick-slide img {
+      display: block; }
+    .slick-slide.slick-loading img {
+      display: none; }
+    .slick-slide.dragging img {
+      pointer-events: none; }
+    .slick-initialized .slick-slide {
+      display: block; }
+    .slick-loading .slick-slide {
+      visibility: hidden; }
+    .slick-vertical .slick-slide {
+      display: block;
+      height: auto;
+      border: 1px solid transparent; }
+  
+  .slick-arrow.slick-hidden {
+    display: none; }
+  
+  /* Slider Message styles */
+  .sliderMessageOuter {
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    text-align: left; }
+    .sliderMessageOuter .sliderMessage {
+      position: relative;
+      top: 18%;
+      max-width: 2000px;
+  width: 100%;
+      padding: 20px; 
+  background-color: #333; }
+  .sliderMessageOuter .sliderMessage h2 {
+        font-size: 2.5em;
+  font-weight: lighter;
+  line-height: 1.2; 
+  color: #fff; }
+      .sliderMessageOuter .sliderMessage p {
+        padding: 20px 0;
+  color: #fff; }
+      .sliderMessageOuter .sliderMessage .white {
+        color: #fff; }
+      .sliderMessageOuter .sliderMessage .bodyButton {
+        background-color: #f7b600;
+        padding: 5px 60px;
+        color: #fff;
+        text-shadow: none;
+        text-decoration: none;
+        outline: none;
+        text-align: center;
+        display: inline-flex;
+        -webkit-transition: background-color 0.3s ease-in-out 0s;
+        -moz-transition: background-color 0.3s ease-in-out 0s;
+        -o-transition: background-color 0.3s ease-in-out 0s;
+        transition: background-color 0.3s ease-in-out 0s; }
+        .sliderMessageOuter .sliderMessage .bodyButton:after {
+          content: url(https://spponeimages.azureedge.net/prod/7c1ea8ed-0c02-4bd9-9d70-c0432923c6b6favoriteIcon.png); }
+        .sliderMessageOuter .sliderMessage .bodyButton:hover {
+          color: #fcc015; }
+          .sliderMessageOuter .sliderMessage .bodyButton:hover:after {
+            content: url(https://spponeimages.azureedge.net/prod/bf5a2351-c0db-49ab-a122-a73baf09b2bcfavoriteIconBlue.png); }
+        .sliderMessageOuter .sliderMessage .bodyButton[disabled] {
+          opacity: 0.15; }
+    @media screen and (min-width: 1130px) {
+  .slick-slide img {
+    display: block; 
+  object-fit: cover;
+  }
+  slick-dots {
+  position: absolute; }
+      .sliderMessageOuter {
+        display: block; }
+  .sliderMessageOuter .sliderMessage h2 {
+  color: #1434cb; 
+  }
+  .sliderMessageOuter .sliderMessage p {
+        padding: 20px 0;
+  color: #333;
+  }
+    .sliderMessageOuter .sliderMessage {
+      position: absolute; 
+  background-color: transparent; 
+  max-width: 500px; 
+  }}
+  
+  h1 {
+    font-size: 2.75em;
+    padding: 5px; }
+  
+      
+      .brand-banner-text h1 {
+          font-size: 2em;
+  margin-bottom: 25px;
+      }	
+  .favoriteWrapper {
+    text-align: center;
+    padding: 20px 0 80px 0; }
+    
+  
+    .favoriteWrapper .favoriteInner h1 {
+      padding: 20px 0; }
+  .favoriteWrapper p {
+  padding: 20px 0;
+  }
+    .favoriteWrapper .favoriteInner .itemContainer {
+      max-width: 1399px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      .favoriteWrapper .favoriteInner .itemContainer .item {
+        width: 75%;
+        border: 2px solid #fff;
+        background-color: #f7f7f7;
+        margin: 30px; }
+        .favoriteWrapper .favoriteInner .itemContainer .item .itemLink {
+          visibility: hidden;
+          display: flex;
+          justify-content: center;
+          color: #fff;
+          background-color: #f7b600;
+          padding: 10px 0 5px 0; }
+          .favoriteWrapper .favoriteInner .itemContainer .item .itemLink:after {
+            content: url(https://spponeimages.azureedge.net/prod/7c1ea8ed-0c02-4bd9-9d70-c0432923c6b6favoriteIcon.png); }
+        .favoriteWrapper .favoriteInner .itemContainer .item .image {
+          display: block; }
+          .favoriteWrapper .favoriteInner .itemContainer .item .image img {
+              height: 250px; }
+        .favoriteWrapper .favoriteInner .itemContainer .item .name {
+          font-weight: 300;
+          margin-bottom: 10px;
+          display: block; }
+        .favoriteWrapper .favoriteInner .itemContainer .item:hover {
+          border: 2px solid #f7b600; }
+          .favoriteWrapper .favoriteInner .itemContainer .item:hover .itemLink {
+            visibility: visible; }
+            .favoriteWrapper .favoriteInner .itemContainer .item:hover .itemLink:hover {
+              color: #fcc015; }
+              .favoriteWrapper .favoriteInner .itemContainer .item:hover .itemLink:hover:after {
+                content: url(https://spponeimages.azureedge.net/prod/bf5a2351-c0db-49ab-a122-a73baf09b2bcfavoriteIconBlue.png); }
+        @media screen and (min-width: 600px) {
+          .favoriteWrapper .favoriteInner .itemContainer .item {
+            width: 45%; } }
+        @media screen and (min-width: 1200px) {
+          .favoriteWrapper .favoriteInner .itemContainer .item {
+            width: 20%; } }
+    @media screen and (min-width: 1200px) {
+      .favoriteWrapper .staticInner .itemContainer .item {
+        width: 25%; } }
+  
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .BoxAdWrapperBottom {
+      max-height: 450px; } }
+  .BoxAdWrapperBottom .BoxAdWrapperBottomInner img {
+    width: 100%; }
+  .BoxAdWrapperBottom .BoxAdWrapperBottomInner .large {
+    display: none; }
+  @media screen and (min-width: 600px) {
+    .BoxAdWrapperBottom .BoxAdWrapperBottomInner .small {
+      display: none; }
+    .BoxAdWrapperBottom .BoxAdWrapperBottomInner .large {
+      display: block; } }
+  
+  .optinsection {
+    display: block;
+    text-align: center;
+    padding: 0 0 80px 0; }
+  
+  .optinfact {
+    width: auto;
+    margin: 0 auto;
+    max-width: 1200px; }
+  
+  .optinfact-heading {
+    padding: 0 20px; }
+  
+  .optinfact-heading-title {
+    line-height: 1.2em;
+    letter-spacing: -0.02em;
+    margin: 0 0 5px 0; }
+  
+  .optinfact-heading-title h1 {
+  font-size: 2.2em;
+  }
+  
+  .optinfact-heading-subtitle {
+    display: block;
+    line-height: 1.2em;
+    color: #5c5c5c;
+    margin: 0 0 35px 0;
+    font-size: 1em;
+  font-weight: lighter; }
+  
+  .optin-fact-stats {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto; }
+  
+  .optin-fact-stat {
+    width: 45%;
+    position: relative;
+    padding: 0 20px; }
+  
+  .optin-fact-stat-num {
+    display: block;
+    color: #1434cb;
+    line-height: 0.8em;
+    font-size: 4em; }
+  
+  .optin-fact-stat-num strong {
+    line-height: 0.7em;
+    display: inline-block; }
+  
+  .optin-fact-stat-cap {
+    display: block;
+    margin-top: 18px;
+    color: #5c5c5c;
+    font-size: 1.1em;
+    font-weight: 300; }
+  
+  .optin-fact-stat-cap strong {
+    color: #1434cb; }
+  
+  .optin-fact-stat-merchant:before,
+  .optin-fact-stat-purchase:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 20px;
+    position: relative;
+    top: 9px; }
+  
+  .optin-fact-stat-merchant:before {
+    background-image: url(https://spponeimages.azureedge.net/prod/be1fe6c4-1c92-441e-9f8d-f2c814a14b94icon-reputable.png); }
+  
+  .optin-fact-stat-purchase:before {
+    background-image: url(https://spponeimages.azureedge.net/prod/23d9253a-112a-44ae-af95-aa8e925b9b64icon-new-store.png); }
+  
+  .optinfact-source {
+    display: block;
+    font-size: 0.8em;
+    color: #5c5c5c;
+    max-width: 700px;
+    margin: 32px auto 0; 
+  line-height: 1.5;
+  font-weight: lighter;}
+  
+  @media screen and (min-width: 600px) {
+    .optin-fact-stats {
+      flex-direction: row; }
+  
+    .optin-fact-stat:first-child {
+      border-right: 1px solid #ccc; } }
+  .hcheader {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    background-color: #fcc015;
+    align-items: center; }
+  
+  .hcheaderinside {
+    width: 100%;
+    height: 100px; }
+  
+  .hcbody a {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none; }
+  
+  .hcbody h1 {
+    padding: 20px 0; }
+  
+  .hcbody h2 {
+    padding: 20px 0;
+    font-size: 2.75em;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .hcbody h3 {
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .hcbody h4 {
+    font-size: 1.25rem;
+  }
+  
+  .hcheadline {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  
+  .hcheaderimage {
+    width: 100%; }
+  
+  .hcheaderimage img {
+    width: 95%;
+    max-width: 500px; }
+  
+  .csbodyinside {
+    display: flex;
+    flex-direction: column; }
+  
+  @media screen and (min-width: 1130px) {
+    .cscontact {
+      display: flex;
+      flex-direction: row; }
+  
+    .cscontactinfo {
+      width: 50%; } }
+  .hcbody, #csbody {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+  
+  .hcbodyinside {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    text-align: left; }
+  
+  .hcbodyinside .pg p, .hcbodyinside .pg ul, .hcbodyinside .pg h4 {
+    padding-left: 15px; }
+  
+  .hcbodymain, .csbodymain {
+    width: 98%; }
+  
+  .csinfo h3 {
+    padding: 15px 0; }
+  
+  .csinfo h4 {
+    padding: 15px 0; }
+  
+  .hcsidenav, .csbodysidenav {
+    border: 0px;
+    width: 90%;
+    display: flex;
+    flex-direction: column; }
+  
+  .csbodysidenav {
+    display: none; }
+  
+  .cssidenav {
+    padding: 40px 0 20px 0; }
+  
+  .cssidenav h2 {
+    text-align: left; }
+  
+  .cssidenav p {
+    text-align: left; }
+  
+  .cssidenav p a {
+    text-decoration: none; }
+  
+  .hcsidenavheader, .cssidenavheader {
+    text-align: left;
+    border-bottom: 1px solid #f7f7f7;
+    padding-bottom: 15px; }
+  
+  .hccontactinfo {
+    padding-top: 20px;
+    text-align: left; }
+  
+  .hccontactinfo a, .cscontactinfo a {
+    text-decoration: none;
+    display: block;
+    text-align: left; }
+  
+  #hcnav {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left; }
+  
+  #hcnav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0; }
+  
+  #hcnav ul li {
+    list-style: none;
+    line-height: 2; }
+  
+  #hcnav li a {
+    text-decoration: none;
+    transition: all .5s ease-in-out; }
+  
+  #nav li a:hover {
+    text-decoration: underline;
+    color: #fff; }
+  
+  #pg {
+    width: 100%; }
+  
+  .toggle_container {
+    padding: 15px 0; }
+  
+  .toggle_container li {
+    list-style-type: disc; }
+  
+  .toggle_container li a {
+    text-decoration: none; }
+  
+  .toggle_container .block {
+    width: 100%; }
+  
+  .toggle_container .block ul li {
+    list-style: disc;
+    padding-bottom: 8px;
+    margin-left: 60px;
+    font-weight: 400; }
+  
+  .toggle_container .block p {
+    padding-left: 45px;
+    padding-bottom: 10px;
+    text-align: left; }
+  
+  .hcbodymain h4 {
+    text-align: left;
+    margin-left: 2em; }
+  
+  .csbodymain h4 {
+    text-align: left; }
+  
+  .hcbodymain p {
+    text-align: left; }
+  
+  .csbodymain p, .csbodymain ul li {
+    text-align: left;
+    padding: 3px 0; }
+  
+  .csbodymain p a {
+    text-align: left;
+    text-decoration: none; }
+  
+  .csbodymain p2 {
+    text-align: left;
+    font-style: italic;
+    display: block; }
+  
+  .csbodymain p2 a {
+    font-style: italic;
+    text-decoration: none;
+    font-size: 0.8em; }
+  
+  .hcbodymain p2 {
+    text-align: left;
+    margin-left: 2em;
+    display: block; }
+  
+  .hcitalic {
+    font-style: italic; }
+  
+  .hcbodymain li {
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -1.4em;
+    padding-left: 3.5em; }
+  
+  ul.numberedlist {
+    display: block; }
+  
+  ul.numberedlist li {
+    list-style-type: decimal;
+    line-height: 1.2; }
+  
+  ul.numberedlist li a {
+    list-style-type: decimal;
+    padding-left: 0;
+    text-decoration: none; }
+  
+  .csbodywrapper {
+    padding: 0 10px; }
+  
+  .csnavwrapper {
+    padding: 20px 30px;
+    background-color: #f7f7f7; }
+  
+  @media (min-width: 720px) {
+    .csbodyboxes {
+      justify-content: space-between; } }
+  @media (min-width: 1130px) {
+    .hcbody {
+      flex-direction: row; }
+  
+    .hcbodyinside, .csbodyinside {
+      justify-content: space-between;
+      flex-direction: row; }
+  
+    .hcsidenav {
+      border: 1px solid #f7f7f7;
+      margin: 20px;
+      width: 30%; }
+  
+    .csbodysidenav {
+      width: 38%;
+      right: 0;
+      display: block; }
+  
+    .csnavwrapper {
+      padding: 20px 30px;
+      position: sticky;
+      top: 150px; }
+  
+    .hcbodymain {
+      width: 70%; }
+  
+    .hcbodymain, .csbodymain {
+      width: 57%; } }
+  
+  .hcbodyinside .pg {
+      margin: 1em 0;
+  }
+  
+  h3.trigger {
+    font-weight: normal;
+    font-size: 16px; }
+  
+  h3.trigger a {
+    text-decoration: none;
+    display: block;
+    padding: 12px 0 0 0; }
+  
+  h3.trigger a:before {
+    content: '\002295';
+    padding-right: 5px; }
+  
+  h3.trigger.active {
+    border-bottom: 0px; }
+  
+  h3.active {
+    background-position: left bottom; }
+  
+  .pull-left a.btn-primary {
+      color: white;
+  }
+</style>
+<script src="/Views/Themes/RedPanda/Content/bootstrap/js/bootstrap.min.js" async></script>
+<script src="/Views/Themes/RedPanda/Scripts/lib/event.min.js"></script>
+<script>
+    window.addEventListener('pageshow', function (event) {
+        if (event.persisted || (window.performance && window.performance.navigation.type === 2)) {
+            window.location.reload(true);
+        }
+    });
+</script>
+    <script src='/bundles/CoreJs?v=wyMgF0HGlXrmGpLaIrshFWuB8x-VzqQOmqgZ5oXC4KU1' ></script>
+
+    <script src='/bundles/ZnodeCoreJs?v=nm-ZIrDpwXmtLtDhDJgUkA6e5SQ_3Rhjn5EVI5Umyzg1' ></script>
+
+    <script src='/bundles/SPPCustomJs?v=lrzl4jTovHhrEPyvlQU2dQrByxJUdj6HSmTut1g_p9E1' ></script>
+
+</head>
+<body id="ContentPage" class="ContentPage " pageType="contentpage" data-controller="ContentPage" data-view="ContentPage" data-portalID="17" data-culture="en-US" data-currency-code="USD" data-txtSelectedBrandProductName="" data-selectedbrandname="">
+
+    <a id="skip-to-main" href="#layout-content">Skip to main content</a>
+    <!--Below hidden field is used to get current theme name in dynamicGrid.ts-->
+    <input type="hidden" id="currentThemePath" value="PurplePlatypus-RedPanda_child">
+
+    <input id="ws" name="ws" type="hidden" value="00" />
+    <input id="isDefaultViewAll" name="isDefaultViewAll" type="hidden" value="False" />
+    
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5C28G2Q"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+
+<div id="layout" class="wrapper">
+        <section class="site-message-block">
+            <!-- Content Block | GlobalMessageBlock-->
+<!--<center>
+<div style="padding: 2em 4em 1em 2em; background: #ccc;"><strong> IMPORTANT MESSAGE: </strong>Due to extreme weather conditions, our distribution center is closed today. No shipments will be going out or being received. We expect to be fully operational tomorrow and apologize for any inconvenience.<u><a href="mailto:SPPCustomerService@staples.com">SPPCustomerService@staples.com</a></u>.--> <!-- Dummy characters for Tiny MCE -->
+<style><!--
+._TotalTable {
+  display: flex;
+  flex-direction: column;
+}
+
+._TotalTable .form-group {
+  display: flex;
+}
+
+._TotalTable div:nth-of-type(2):not(.nopadding), ._TotalTable div:nth-of-type(3):not(.nopadding), ._TotalTable div:nth-of-type(4):not(.nopadding) {
+  display: flex;
+  justify-content: space-between;
+}
+
+._TotalTable div:nth-of-type(2):not(.nopadding) div:nth-of-type(1):not(.left-sm-shift){
+  width: 50%;
+}
+
+._TotalTable .no-gutters.mt-2 .col-xs-6 {
+  width: 75%;
+}
+
+._TotalTable .text-right {
+  width: 56%;
+}
+
+._TotalTable #dynamic-shipping-amount, ._TotalTable #dynamic-tax-amount {
+  white-space: nowrap;
+}
+
+._TotalTable .no-gutters.mt-2 p {
+  font-weight: normal;
+  line-height: normal;
+  padding-bottom: 1em;
+}
+
+.div-shopping-cart .cartSummary .form-group {
+  margin-bottom: 0;
+  padding: .5em 0;
+}
+--></style>
+<!-- CC & ApplePay maint, en-us
+<center>
+<div style="padding: 2em 4em 1em 2em; background: #ccc;"><strong>Please note: </strong>Credit Card and Apple Pay payment options will be unavailable from midnight to 6AM EST. We apologize for any inconvenience.</div>
+</center>
+-->        <!-- Layout | Sitewide Notification Message -->
+        <z-widget>
+    <div class="layout-contentpage" data-test-selector="divContentPage" tabindex="-1">
+
+    </div>
+
+
+
+</z-widget>
+    </section>
+    <!--Header Widgets-->
+        <z-widget>
+
+<div class="menuOverlay"></div>
+<!--WidgetHeader | Add Code to Header-->
+    <z-widget>
+    <div class="layout-contentpage" data-test-selector="divContentPage" tabindex="-1">
+
+    </div>
+
+
+
+</z-widget>
+
+<header>
+    <div class="status-bar">
+
+
+    </div>
+
+    <div class="upper-header " id="impersonateheader">
+        <div>
+            <z-widget>
+
+<ul class="link-panel-widget primary-link-group" data-test-selector="listLinkPanelContainer">
+    
+                    <li data-link-name="Account">
+                    <a href=../../../../../user/dashboard target="_self" data-test-selector="linkTitle">Account</a>
+                </li>
+                <li data-link-name="FAQ">
+                    <a href=../../../../../faq target="_self" data-test-selector="linkTitle">FAQ</a>
+                </li>
+                <li data-link-name="Brand Logos and Guidelines">
+                    <a href=../brandguidelines target="_self" data-test-selector="linkTitle">Brand Logos and Guidelines</a>
+                </li>
+                <li data-link-name="Change Country">
+                    <a href=https://visaposlanding.sppone.corpmerchandise.com target="_self" data-test-selector="linkTitle">Change Country</a>
+                </li>
+</ul>
+</z-widget>
+
+            <div class="right-side">
+
+                <!--Donut#D936A2C4443FDB752347AD537C106C65AE6E104D8D07B0266245457977379836558AB37C7BBC5040E33334C2DA3F47E8E2FF346A88712EB1A93922BFE74B8A5CE188EEE93F4B06C9B24B7BBBB40F691006A223671AD62D27DE890ECEF3DFECBECD3EE898581147675C937DA7E5F667255490B29B4759A937E3EC9094A3244DAA05A39BEF822EB74B38283E6CA3F50849F00713B9A953352ED7245E704BC4DF092672510C159EC77EA7037F482B8DF23F578B94BFD6E4E5A57E4C9B59FCF6DAC94A3AEDD3A2331501031160CBB2ADE88C22979638DBCD0D055209DC2FFDECA576D85971818948DA335AD3E8F774A9167A3A472339C4CDD9063200BBD6563F886CCDD2DBCE7C9D38041FAE806807937B0064D6ED38D45B4B534F1A3D0C9B42B29715DEF9FDBF565B4A48E4C53204D3940F438471AE0B244C68EEE4BC511A76873819250AF3624D26D197849457D6368303BF672CF3417DCDE0524E4EE61995AD00842A8BB9DF0598A43CB052C3CADD681C6E0EF1601C30D9C80C21CF934BFDA3CF#-->
+    <a href="#" class="login_btn loginLink" name="anclogin" data-test-selector="linkLogIn">Log In</a>
+<script src="/Scripts/Core/Znode/_LoginPartial.js?v=20250611224321"></script>
+<!--EndDonut-->
+
+                <div class="cart">
+                    
+
+                    <!--  <div class="has-tooltip"> -->
+
+                    <a href="/cart" id="headerCart" class="" data-cartTotalData="0#0">
+                        <span class="icon-shopping-cart" data-test-selector="spnIcon"></span>
+                                <span class="headerQuantity" data-test-selector="spnQuantity">0</span>
+                                <span class="headerSubtotal" data-test-selector="spnSubTotal">$0.00</span>
+                    </a>
+
+                    <!--  <div class="tooltip">
+                            <a href="/cart" id="headerCart">
+                                <span class="headerQuantity" data-test-selector="spnQuantity"></span>
+                                <span class="headerSubtotal" data-test-selector="spnSubTotal"></span>
+                            </a>
+                        </div>
+                    </div> -->
+                </div>
+                <div id="DesktopSearch" class="search">
+                    <z-widget>
+<div class="search-widget customize-search-box" data-test-selector="divSearchWidget" data-culturecode="en-US">
+    <form action="/search" method="GET" data-test-selector="frmSearchDetails" id="searchForm">
+        <div class="left-inner-icon input-group search-wrapper">
+            
+            <span class="twitter-typeahead">
+                <label aria-labelledby="search-input"></label>
+                <input type="text" id="searchTextBox" placeholder="Search.." class="typeahead tt-hint" name="searchterm" data-test-selector="txtSearch" maxlength="256" spellcheck="false" tabindex="-1" dir="auto" autocomplete="off" title="input-search" />
+                <pre aria-hidden="true"></pre>
+            </span>
+            <div class="search-result-wrapper">
+                <div id="suggestedsynonyms" class="synonymsresult-wrapper"></div>
+                <div class="typeahead-results-wrapper">
+                    <span class="tt-dropdown-menu" id="typeahead-search-results"></span>
+                </div>
+            </div>
+            <span class="input-group-btn" data-test-selector="spnButtonGroup">
+                <button type="submit" class="btn-text btn-bg-primary" id="btnSearchTerm" aria-label="searchbar" data-test-selector="btnSearch">Go</button>
+                
+            </span>
+
+        </div>
+        <div id="typeahead-results" class="ui-autocomplete-home"></div>
+    </form>
+    <div class="_WidgetSearch">
+        <input type="hidden" class="isChromeSpecificVoiceSearch" value="false" />
+        <input type="hidden" class="regionName" value="en-US" />
+    </div>
+</div>
+<script src="/Scripts/Core/Znode/_WidgetSearch.js?v=20250611224321"></script>
+
+</z-widget>
+                </div>
+                <div class="locale-header">
+                    <z-widget>
+
+
+
+</z-widget>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="lower-header">
+        <div class="logo">
+            <!--This is the logo image placeholder-->
+            <a href="/" class="header-logo" aria-label="home page">
+                
+                <!--WidgetHeader | Header Logo-->
+                <z-widget>
+    <div class="layout-contentpage" data-test-selector="divContentPage" tabindex="-1">
+<p><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 163.2 52.4"><path d="M61.9.9L40.6 51.6H26.7L16.1 11.2c-.6-2.5-1.2-3.4-3.1-4.5C9.8 5 4.6 3.4 0 2.4L.3.9h22.4c2.9 0 5.4 1.9 6.1 5.2l5.6 29.3L48.1.9h13.8zm54.6 34.2C116.6 21.7 98 20.9 98.1 15c0-1.8 1.8-3.8 5.6-4.2 1.9-.2 7.1-.4 13 2.3L119 2.2c-3.2-1.1-7.3-2.2-12.3-2.2-13 0-22.2 6.9-22.3 16.8-.1 7.3 6.6 11.4 11.5 13.8 5.1 2.5 6.9 4.1 6.8 6.3 0 3.4-4.1 4.9-7.9 5-6.6.1-10.5-1.8-13.5-3.2l-2.4 11.1c3.1 1.4 8.8 2.6 14.7 2.7 13.8-.1 22.9-6.9 22.9-17.4M151 51.6h12.2L152.5.9h-11.2c-2.5 0-4.7 1.5-5.6 3.7l-19.8 47h13.8l2.7-7.6h16.9l1.7 7.6zm-14.8-17.9l6.9-19 4 19h-10.9zM80.8.9L69.9 51.6H56.7L67.6.9h13.2z" fill="#fff"></path></svg></p>
+    </div>
+
+
+
+</z-widget>
+            </a>
+        </div>
+        <div class="right-side">
+            <div class="navigation">
+                <button class="hamburger hamburger--collapse" type="button" aria-label="toggle navigation menu">
+                    <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+                <z-widget>
+
+<ul class="link-panel-widget primary-link-group" data-test-selector="listLinkPanelContainer">
+        </ul>
+</z-widget>
+                <!--WidgetHeader | TopLevelNavigation-->
+                <z-widget>
+<nav role="navigation">
+
+
+
+
+
+    <ul class="topLevel" data-test-selector="listNavigationContainer">
+    
+            <li class="itemLevel1 hasSub" data-category-name="Tap to Pay – Branded">
+                <a class="categoryValidate hasSub" data-category-id="76" href="/category/taptopay-branded" data-test-selector="linkCategoryName">Tap to Pay – Branded</a>
+                    <ul class="secondLevel" data-test-selector="listNavigationSecondLevelContainer">
+                            <li class="" data-category-name="Store Entrance">
+                                <a class="categoryValidate " data-category-id="76" href="/category/visa-store-entrance" data-test-selector="linkSubCategoryItemList">Store Entrance</a>
+                            </li>
+                            <li class="" data-category-name="Inside Store">
+                                <a class="categoryValidate " data-category-id="76" href="/category/visa-inside-store" data-test-selector="linkSubCategoryItemList">Inside Store</a>
+                            </li>
+                            <li class="" data-category-name="At Terminal">
+                                <a class="categoryValidate " data-category-id="76" href="/category/visa-at-terminal" data-test-selector="linkSubCategoryItemList">At Terminal</a>
+                            </li>
+                    </ul>
+            </li>
+            <li class="itemLevel1 " data-category-name="Tap to Pay – Brand Agnostic">
+                <a class="categoryValidate " data-category-id="10803" href="/category/brand-agnostic" data-test-selector="linkCategoryName">Tap to Pay – Brand Agnostic</a>
+            </li>
+            <li class="itemLevel1 " data-category-name="Female Owned Business">
+                <a class="categoryValidate " data-category-id="1050" href="/category/female-owned-business" data-test-selector="linkCategoryName">Female Owned Business</a>
+            </li>
+            <li class="itemLevel1 " data-category-name="View All">
+                <a class="categoryValidate " data-category-id="1119" href="/category/view-all" data-test-selector="linkCategoryName">View All</a>
+            </li>
+
+</ul>
+
+
+    <div class="mobile-only">
+        <!--WidgetTopLevelNavigation | Top Links-->
+        <z-widget>
+
+<ul class="link-panel-widget primary-link-group" data-test-selector="listLinkPanelContainer">
+    
+                    <li data-link-name="Account">
+                    <a href=../../../../../user/dashboard target="_self" data-test-selector="linkTitle">Account</a>
+                </li>
+                <li data-link-name="FAQ">
+                    <a href=../../../../../faq target="_self" data-test-selector="linkTitle">FAQ</a>
+                </li>
+                <li data-link-name="Brand Logos and Guidelines">
+                    <a href=../brandguidelines target="_self" data-test-selector="linkTitle">Brand Logos and Guidelines</a>
+                </li>
+                <li data-link-name="Change Country">
+                    <a href=https://visaposlanding.sppone.corpmerchandise.com target="_self" data-test-selector="linkTitle">Change Country</a>
+                </li>
+</ul>
+</z-widget>
+    </div>
+    <ul class="mobile-only">
+        <li>
+            <!--Donut#8C9DFB8426EE948CE58ABA500E5C5992FE9477BBFEECB7A4D255F80B0849A153D82D27AA1931ADD4FCA6869EB035B4A8A4D6CB9315386605627B5D8E14C9DBEE57B662B0FC734AC1E5E325EF80EDBE63BDEB07FE1EBEF7D700C483B29B6B8F9502378F44695E575E0EE17D0C8A98352F59D8B23C8D294C1D4DE14A1A0E57754DA2F0AFAAF8A125B0E9C99EA9D7B7A64E43D678A62A673504D3DB2862DE8044A8887428F16B0387B7C12456023BE7EFA4FBB911A89A0CBDD0B57B06A8F46C162F135C453E156EFCCDFBE3EF421FB6281A1CEF4F97D17A7D2BEE898AD3019A5E7345738D0F074E6C7BD53C64CA481A3A323917588BE26497509E5C6822DB7DDB58940AB0674A9F44BAA2A4D1D5EB38E0E8CADEDBB61C528B7C5DE17BA71FCDB5299B2EFB95E6B6631BC3779B9B524DCB179D19971AA9C5A77763C199CB628A060960A6B6E3A928F247C7C925A9E2F00AE09FE247505622B0211D77DF55DF6CD711F0D6AED4CAC6FE9BEC28D0B62EAD30834C6638876CDE519E4A1837853656ED68#-->
+    <a href="#" class="login_btn loginLink" name="anclogin" data-test-selector="linkLogIn">Log In</a>
+<script src="/Scripts/Core/Znode/_LoginPartial.js?v=20250611224321"></script>
+<!--EndDonut-->
+        </li>
+        <li class="cart">
+            <a href="/cart"><span class="icon-shopping-cart"></span> <span class="headerSubtotal">&#164;0.00</span></a>
+        </li>
+    </ul>
+</nav>
+
+</z-widget>
+                <div class="dropdown-linksPanel">
+                    <z-widget>
+
+<ul class="link-panel-widget primary-link-group" data-test-selector="listLinkPanelContainer">
+        </ul>
+</z-widget>
+                </div>
+            </div>
+        </div>
+    </div>
+    <z-widget id="MobileSearch">
+<div class="search-widget customize-search-box" data-test-selector="divSearchWidget" data-culturecode="en-US">
+    <form action="/search" method="GET" data-test-selector="frmSearchDetails" id="searchForm">
+        <div class="left-inner-icon input-group search-wrapper">
+            
+            <span class="twitter-typeahead">
+                <label aria-labelledby="search-input"></label>
+                <input type="text" id="searchTextBox" placeholder="Search.." class="typeahead tt-hint" name="searchterm" data-test-selector="txtSearch" maxlength="256" spellcheck="false" tabindex="-1" dir="auto" autocomplete="off" title="input-search" />
+                <pre aria-hidden="true"></pre>
+            </span>
+            <div class="search-result-wrapper">
+                <div id="suggestedsynonyms" class="synonymsresult-wrapper"></div>
+                <div class="typeahead-results-wrapper">
+                    <span class="tt-dropdown-menu" id="typeahead-search-results"></span>
+                </div>
+            </div>
+            <span class="input-group-btn" data-test-selector="spnButtonGroup">
+                <button type="submit" class="btn-text btn-bg-primary" id="btnSearchTerm" aria-label="searchbar" data-test-selector="btnSearch">Go</button>
+                
+            </span>
+
+        </div>
+        <div id="typeahead-results" class="ui-autocomplete-home"></div>
+    </form>
+    <div class="_WidgetSearch">
+        <input type="hidden" class="isChromeSpecificVoiceSearch" value="false" />
+        <input type="hidden" class="regionName" value="en-US" />
+    </div>
+</div>
+<script src="/Scripts/Core/Znode/_WidgetSearch.js?v=20250611224321"></script>
+
+</z-widget>
+</header>
+
+<div id="_WidgetHeader">
+    <input type="hidden" value="True" class="showPriceToLoggedInCustomersOnly" />
+    <input type="hidden" value="False" class="brandEnabled" />
+    <input id="enableDisplayAsPointValue" name="enableDisplayAsPointValue" type="hidden" value="False" />
+    <script src="/Scripts/Core/Znode/_WidgetHeader.js?v=20250611224321"></script>
+    <script src="/Scripts/Custom/_CustomWidgetHeader.js?v=20250611224321"></script>
+    <script src="/Scripts/Custom/CustomSearch.js?v=20250611224321"></script>
+</div></z-widget>
+    <div id="layout-content">
+        <div class="container-fluid" id="SuccessMessage">
+        </div>
+        <!-- Notification Msg -->
+        <div class="container padding-none">
+            <div class="row">
+                <div class="notification-msg" id="body" data-test-selector="ValNotificationMessage">
+                    <div class="messageBoxContainer" id="messageBoxContainerId" data-message=""></div>
+
+                </div>
+            </div>
+        </div>
+        
+
+
+
+<z-widget>
+    <div class="layout-contentpage" data-test-selector="divContentPage" tabindex="-1">
+<p>Content you are looking for is unavailable. </p>
+    </div>
+
+
+
+</z-widget>
+
+        <!--</div>-->
+    </div>
+    <!--Footer Widgets-->
+<footer id="layout-footer" data-test-selector="divFooter">
+    <z-widget>
+
+<div class="container footerLinks">
+    <div class="links">
+        <!--WidgetFooter | Top Links-->
+        <z-widget>
+
+<ul class="link-panel-widget primary-link-group" data-test-selector="listLinkPanelContainer">
+    
+                    <li data-link-name="Account">
+                    <a href=../../../../../user/dashboard target="_self" data-test-selector="linkTitle">Account</a>
+                </li>
+                <li data-link-name="FAQ">
+                    <a href=../../../../../faq target="_self" data-test-selector="linkTitle">FAQ</a>
+                </li>
+                <li data-link-name="Brand Logos and Guidelines">
+                    <a href=../brandguidelines target="_self" data-test-selector="linkTitle">Brand Logos and Guidelines</a>
+                </li>
+                <li data-link-name="Change Country">
+                    <a href=https://visaposlanding.sppone.corpmerchandise.com target="_self" data-test-selector="linkTitle">Change Country</a>
+                </li>
+</ul>
+</z-widget>
+    </div>
+</div>
+<!--WidgetFooter | Footer Content-->
+<z-widget>
+    <div class="layout-contentpage" data-test-selector="divContentPage" tabindex="-1">
+<div class="footer-copyright-text">
+<p></p>
+<div class="footerwrapper">
+<div class="footercopy"><span class="footercopybold"> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=q_cBsaxWX0izl1J5aY_ffUwofxUfTE1Er7J9EIGyk8FUMUk3TDgzOEk5RVVEOUg2T1RNTlc0SlM0Ty4u">AE Merchant Orders</a><br /> <a href="mailto:visa.merchant@cs.staples.com">visa.merchant@cs.staples.com</a></span> <br /> <a href="tel:1-888-488-9859">1.888.488.9859</a> | <a href="../faq">FAQ</a> | <a href="https://usa.visa.com/legal/privacy-policy.html" target="_blank">Visa privacy policy</a></div>
+</div>
+</div>
+    </div>
+
+
+
+</z-widget>
+<div class="footerCopyright">
+    <div class="container">
+        <div class="footer-copyright-text">
+               <p><div class="footerAbove">
+Copyright <span id="currentYear"></span> Staples, Inc. All Rights Reserved.
+</div>
+<div class="footerBelow">
+<a href="https://spponeimages.azureedge.net/prod/a0a97d40-c357-4f21-a90e-6cb929bf686aVulnerability-Disclosure-Policy-v1.0.pdf?v=0" target="_blank">Vulnerability Disclosure Policy</a><a href="https://staplespromo.com/accessibility-statement" target="_blank">Accessibility Statement</a><a href="https://staplespromo.com/privacy" target="_blank">Privacy Notice</a><a href="https://staplespromo.com/california-notice" target="_blank" class="has-gtm">California Notice</a>
+<div style="display: inline;" id="teconsent"></div>
+<div style="display: inline;" id="irmlink" title="Do not Sell"></div>
+</div>
+<div id="consent_blackbar"></div>
+<script>// <![CDATA[
+let hasGtm;
+
+            //check for TagManager script reference
+            document.querySelectorAll('script').forEach((item) => {
+            if (item.src.includes("https://www.googletagmanager.com")) {
+                hasGtm = true
+            };
+        });
+            if (hasGtm) {
+                document.querySelectorAll('.has-gtm').forEach((item) => {
+                    item.style.borderRight = "1px solid";
+                });
+
+                //populate TrustArc reference to DOM
+                const js = document.createElement("script");
+                js.async = "async";
+                js.src = "//consent.trustarc.com/notice?domain=spp.com&c=teconsent&js=nj&noticeType=bb&text=true&irmc=irmlink&gtm=1";
+                document.querySelector('head').appendChild(js);
+                
+            };
+// ]]></script>
+<script type="text/javascript">// <![CDATA[
+const theDate = new Date();
+        document.getElementById("currentYear").innerHTML = theDate.getFullYear();
+// ]]></script>
+<style><!--
+/* TEMP: CONSENT STYLING FIX */
+        div#consent_blackbar {
+            width: 100%;
+            left: 0;
+        }
+    
+        div#truste-consent-buttons {
+            display: block;
+        }
+    
+        button#truste-consent-button {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    
+        div#truste-consent-content {
+            text-align: center;
+        }
+    
+        div#truste-consent-text {
+            display: block;
+            width: 100%;
+        }
+--></style>
+<style><!--
+.truste-banner {
+            margin: 0 auto;
+        }
+    
+        .truste-messageColumn {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            color: #fff;
+            margin: 15px 0px 15px 5px;
+            float: left;
+        }
+    
+        .truste-buttonsColumn {
+            float: right;
+            margin: 10px 5px 10px 0px;
+        }
+    
+        .truste-button1,
+        .truste-button2 {
+            font-family: Arial, sans-serif;
+            background: #b3b3b3;
+            color: #fff;
+            font-size: 14px;
+            width: 170px;
+            height: auto;
+            cursor: pointer;
+            margin-left: 5px;
+            padding: 5px;
+            border: 0px none;
+        }
+    
+        .truste-button3 {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            width: 140px;
+            height: auto;
+            cursor: pointer;
+            margin-left: 5px;
+            padding: 5px;
+            color: #00559c;
+            border: none;
+            background-color: transparent;
+            outline: none;
+        }
+    
+        .hidedesktop {
+            display: none;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            cursor: pointer;
+            color: #00559c;
+            text-decoration: none;
+        }
+    
+        .truste-cookie-link {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            cursor: pointer;
+            color: #fff;
+            text-decoration: underline;
+            display: inline-block;
+            padding: 5px;
+        }
+    
+        /* SPP overrides to the <style> section in the document header */
+        #consent_blackbar {
+            position: fixed;
+            bottom: 0;
+            font-family: sans-serif;
+            font-size: 16px;
+            line-height: 125%;
+        }
+    
+        #consent_blackbar a {
+            color: #fff !important;
+        }
+    
+        /* SOO overrides to the <style> section in #consent_blackbar */
+        #truste-consent-track {
+            border: 0 none !important;
+            background-color: rgba(77, 77, 79, .9) !important;
+        }
+    
+        .truste-buttonsColumn {
+            float: none !important;
+        }
+    
+        #truste-consent-required,
+        #truste-show-consent,
+        #truste-consent-button {
+            border: 0 none !important;
+            padding: 10px 0 !important;
+            color: #fff !important;
+            cursor: pointer !important;
+        }
+    
+        #truste-consent-button {
+            float: right !important;
+            background-color: #4D4D4F !important;
+            padding: 10px 100px !important;
+        }
+    
+        #truste-consent-button:focus {
+            outline: none;
+            -webkit-box-shadow: 0px 0px 6px 0px #FFFFFF;
+            box-shadow: 0px 0px 6px 0px #FFFFFF;
+        }
+    
+        #truste-consent-button:active {
+            outline: none;
+            -webkit-box-shadow: inset 0px 0px 6px 0px #FFFFFF;
+            box-shadow: inset 0px 0px 6px 0px #FFFFFF;
+        }
+    
+        #truste-consent-required,
+        #truste-show-consent {
+            margin-right: 20px !important;
+            background-color: transparent !important;
+            text-decoration: underline !important;
+        }
+    
+        #truste-consent-required:focus,
+        #truste-show-consent:focus,
+        #truste-consent-required:active,
+        #truste-show-consent:active {
+            outline: none;
+            text-shadow: 0px 0px 3px #fff;
+        }
+    
+        /* MEDIA QUERIES */
+        @media screen and (max-width: 420px) {
+            .truste-banner {
+                margin: 0 10px;
+            }
+    
+            .truste-messageColumn,
+            .truste-buttonsColumn {
+                float: left;
+                width: 100%;
+            }
+    
+            .truste-messageColumn {
+                margin: 15px 0px 10px 0px;
+            }
+    
+            .truste-buttonsColumn {
+                float: right;
+                margin: 10px 0px 10px 0px;
+            }
+    
+            .truste-button1,
+            .truste-button2 {
+                margin-top: 5px;
+                margin-left: 0px;
+                width: 100%;
+            }
+    
+            .truste-button3 {
+                display: none;
+            }
+    
+            .hidedesktop {
+                display: inline;
+                font-size: 14px;
+                cursor: pointer;
+                color: #00559c;
+                text-decoration: none;
+            }
+        }
+    
+        @media screen and (min-width: 421px) and (max-width: 856px) {
+            .truste-banner {
+                margin: 0 10px;
+            }
+    
+            .truste-messageColumn,
+            .truste-buttonsColumn {
+                float: left;
+                width: 100%;
+            }
+    
+            .truste-messageColumn {
+                margin: 15px 0px 10px 0px;
+            }
+    
+            .truste-buttonsColumn {
+                margin: 10px 0px 10px 0px;
+            }
+    
+            .truste-button1,
+            .truste-button2 {
+                margin-top: 0px;
+                margin-left: 0px;
+                width: 49%;
+                float: left;
+            }
+    
+            .truste-button2 {
+                margin-right: 5px;
+            }
+    
+            .truste-button3 {
+                display: none;
+            }
+    
+            .hidedesktop {
+                display: inline;
+                font-size: 14px;
+                cursor: pointer;
+                color: #00559c;
+                text-decoration: none;
+            }
+        }
+--></style>
+<style><!--
+/* Copyright Links' Borders */
+
+        .footerBelow a {
+            border-right: 1px solid;
+            padding: 0 0.5em;
+        }
+    
+        .footerBelow > a:first-child {
+            padding: 0 0.5em 0 0;
+        }
+    
+        .footerBelow > a:last-of-type, .footerBelow > div a:last-of-type {
+            border-right: none;
+        }
+
+        .footerBelow > div a.truste_cursor_pointer {
+            border-right: 1px solid;
+        }
+--></style></p>
+        </div>
+    </div>
+</div>
+<a href="#layout" class="back-to-top">Back to top <span class="icon-angle-down"></span></a>
+
+</z-widget> 
+</footer>
+
+</div>
+    
+    <div class="modal fade preview-popup" id="preview-popup-popup-ipad" tabindex="-1" role="dialog" aria-label="preview pop up">
+        <div class="popup-container modal-dialog  modal-lg">
+            <div class="modal-body" data-test-selector="popPreviewMessage">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" data-test-selector="popBtnPreviewClose"><span aria-hidden="true" data-test-selector="spnClose"><i class="zf-close"></i></span></button>
+                <div id="preview-popup-content">
+                    Loading....
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+<div id="brand-popup-ipad" class="modal fade brand-popup" tabindex="-1" role="dialog" aria-label="brand pop up">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body brandPopupBody">
+                <button type="button" class="close nopadding" data-dismiss="modal" aria-label="Close" data-test-selector="popBtnBrandClose">
+                    <span aria-hidden="true" data-test-selector="spnClose"><i class="zf-close"></i></span>
+                </button>
+                <div class="brand-popup-main">
+                    <h2 data-test-selector="hdgBrand">Select your brand/logo to start shopping</h2>
+                    <p class="brand-details" data-test-selector="paraBrandDetails">Select a brand for a list of products tailored specifically to your needs.</p>
+                    <p id="brandSearchLabelText" class="select-brand" data-test-selector="paraBrandSearch">Search for your brand/logo</p>
+                    <div class="brand-search">
+                        <i class="zf-search"></i>
+                        <input id="txtSearchBrandList" type="text" class="search" aria-labelledby="brandSearchLabelText" data-test-selector="txtBrandSearch" />
+                    </div>
+                    <div class="error-msg" style="display:none;"><p data-test-selector="paraBrandError">The brand you have selected does not apply to this item(s). You will be redirected to the home page</p></div>
+                    <div class="error-msg error-msg-required" style="display:none;"><p data-test-selector="paraBrandError">Please select any brand.</p></div>
+                    <div id="brand-content" data-test-selector="btnSelectBrand">
+                        <input id="isFromPopUp" name="isFromPopUp" type="hidden" value="True" />
+                        <div id="brandPopUpPage">
+                            <img src="/Views/Themes/PurplePlatypus-RedPanda_child/Images/loading.gif" alt="Loading" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#" id="idShowBrand" class="btn btn-primary">Show Brand</a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/Scripts/Core/Znode/_BrandList.js?v=20250611224321"></script>
+    <script id="tmpl-typeahead-results" nonce="X0lubGluZVRlbXBsYXRlcy10bXBsLXR5cGVhaGVhZC1yZXN1bHRz" type="text/template">
+    <a href="#" class="close" data-test-selector="linkClose"><i class="zf-close close"></i></a>
+    <ul data-test-selector="listSearchTermContainer">
+        {{#matches}}
+        <li><a href="/search?searchterm={{term}}&category={{category}}" data-test-selector="linkTerm"><strong>{{product}}</strong> {{suffix}}</a></li>
+        {{/matches}}
+    </ul>
+</script>
+<script id="tmpl-alertmessage" nonce="X0lubGluZVRlbXBsYXRlcy10bXBsLWFsZXJ0bWVzc2FnZQ" type="text/template">
+    <div id="status-message" class="{{style}} alert alert-info text-center">{{message}}</div>
+</script>
+
+    <input id="hdnWebStoreUrl" name="hdnWebStoreUrl" type="hidden" value="https://www.merchantsignage.visa.com" />
+    <input id="loggedInStatus" name="loggedInStatus" type="hidden" value="GuestUser" />
+
+    
+
+    
+<div id="quick-view-popup-ipad" class="quick-view-popup">
+    <button type="button" class="close quick-view-crossbtn" data-dismiss="modal" aria-label="Close" data-test-selector="btnQuickViewClose"><span id="close-quick-view-popup-ipad" aria-hidden="true"><span class="icon-cross"></span></span></button>
+    <span class="loader quick-view-loader"></span>
+    <iframe id="quick-view-iframe" frameborder="0"></iframe>
+    <input type="hidden" id="isQuickViewLoaded" value="false" />
+</div>
+
+    
+    <div id="divAddedForCompare" class="modal fade comparepopup" role="dialog" aria-label="compare pop up">
+        <div class="compare-product-popup" id="popUp_content" data-test-selector="popCompareMessage">
+        </div>
+    </div>
+    <button id="btnAddCompare" style="display:none" data-toggle="modal" data-target=".comparepopup" data-test-selector="popBtnCompare">Compare</button>
+
+    
+    <script src="/Scripts/Core/Znode/LayoutScripts.js?v=20250611224321"></script>
+
+    
+    
+
+    <!-- Content Block | GlobalEndOfBody-->
+    <style><!--
+.admin-footer .footer-contain.pb-5 {
+    display: none;
+}
+--></style>
+<epro_only><!-- epro only stuff --> </epro_only> <sso_only><!-- sso only only stuff --> </sso_only>
+    <div class="admin-footer">
+        <div class="footer-contain pb-5">
+            <p>Powered by Znode. © Copyright 2022, Znode LLC, All Rights Reserved.</p>
+        </div>
+    </div>
+<script type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=207600810" async nonce="SGlnaFJhZGl1cw"></script></body>
+</html>
