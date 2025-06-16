@@ -1,0 +1,23 @@
+.main-footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  margin-top: 40px;
+  border-top: 1px solid #e0e0e0;
+  color: #666;
+  font-size: 13px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-content p {
+  margin-bottom: 5px;
+}
+
+.footer-content p:last-child {
+  margin-bottom: 0;
+} 
