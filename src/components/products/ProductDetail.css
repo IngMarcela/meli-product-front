@@ -1,0 +1,828 @@
+.product-page-container {
+  padding: 0 20px; /* Aplica padding horizontal a toda la página */
+  max-width: 1200px; /* Nuevo: Limita el ancho de toda la página */
+  width: 100%; /* Asegura que el contenedor ocupe el 100% del espacio disponible para que margin: auto funcione */
+  margin: 0 auto; /* Centra el contenedor principal */
+  min-height: 100vh;
+  background-color: #ededed; /* Fondo gris claro de Mercado Libre */
+}
+
+.product-main-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Columna de contenido principal y barra lateral */
+  max-width: 100%; /* Ocupa todo el ancho disponible del contenedor padre */
+  margin: 0;
+  gap: 20px;
+  padding: 0 0 20px 0; /* Elimina padding horizontal aquí, lo controla el padre */
+}
+
+.product-content-area {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.product-gallery-and-info {
+  display: grid;
+  grid-template-columns: 60px 1fr 1fr; /* Adjusted: Smaller width for thumbnails column */
+  gap: 20px;
+}
+
+.thumbnails-column {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-top: 10px; /* Alineación con la imagen principal */
+}
+
+.thumbnail {
+  width: 50px; /* Adjusted: Smaller thumbnail size */
+  height: 50px;
+  object-fit: contain;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 2px;
+  background-color: white;
+  transition: all 0.2s ease;
+}
+
+.thumbnail:hover {
+  border-color: #3483fa;
+}
+
+.thumbnail.selected {
+  border-color: #3483fa;
+  box-shadow: 0 0 0 1px #3483fa; /* Sombra sutil para la selección */
+}
+
+.main-image-column {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Adjusted: Vertically centered */
+  padding: 10px;
+  overflow: hidden; /* Ensure magnified area stays within bounds */
+}
+
+.main-image-column img {
+  max-width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+}
+
+.product-info-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 0;
+}
+
+.product-info-column h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #333;
+  margin: 10px 0;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.product-status {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.product-status .heart-icon {
+  margin-left: 5px;
+  color: #3483fa; /* Mercado Libre blue for the heart icon */
+  cursor: pointer;
+}
+
+.recommended-tag {
+  background-color: #3483fa; /* Mercado Libre blue */
+  color: white;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 3px 6px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.product-rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.product-rating .rating-value {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+}
+
+.product-rating .stars-container {
+  display: flex;
+  gap: 2px;
+}
+
+.product-rating .star {
+  font-size: 16px;
+  color: #3483fa; /* Mercado Libre blue for stars */
+}
+
+.product-rating .reviews {
+  font-size: 14px;
+  color: #666;
+}
+
+.current-price-text {
+  font-size: 44px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 0px; /* Adjusted to remove space below the price */
+}
+
+.discount-percentage {
+  font-size: 16px;
+  color: #00a650; /* Verde de descuento */
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.installments-text {
+  font-size: 16px;
+  color: #00a650; /* Changed to green for installments */
+  margin-top: 0px; /* Adjusted to reduce space above the installments */
+  margin-bottom: 15px;
+}
+
+.discount-cta {
+  background-color: #e6f2ff; /* Azul claro para el CTA */
+  color: #3483fa;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 15px;
+}
+
+.discount-cta:hover {
+  background-color: #d1e2f7;
+}
+
+.payment-options-link {
+  font-size: 14px;
+  color: #3483fa;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.payment-options-link:hover {
+  text-decoration: underline;
+}
+
+.product-color-selector {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.product-color-selector .color-label,
+.product-color-selector .color-name {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.product-color-selector .color-name {
+  font-weight: 400;
+}
+
+.color-options {
+  display: flex;
+  gap: 8px;
+  margin-left: 10px;
+}
+
+.color-thumbnail {
+  width: 38px;
+  height: 38px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  object-fit: contain;
+  padding: 2px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.color-thumbnail:hover {
+  border-color: #3483fa;
+}
+
+.color-thumbnail.selected {
+  border-color: #3483fa;
+  box-shadow: 0 0 0 2px #3483fa;
+}
+
+.purchase-options {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+  color: #666;
+}
+
+.purchase-options a {
+  color: #3483fa;
+  text-decoration: none;
+}
+
+.purchase-options a:hover {
+  text-decoration: underline;
+}
+
+.product-description-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.product-description-section h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.product-description-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.product-description-section .description-paragraph {
+  margin-bottom: 15px;
+}
+
+/* Right Sidebar Styles */
+.product-sidebar {
+  /* Estilos de caja ya definidos en .product-detail-grid */
+  padding: 20px;
+}
+
+.delivery-info,
+.product-stock-info,
+.action-buttons-sidebar,
+.seller-shop-info,
+.delivery-guarantees {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #e0e0e0; /* Added a border to match ML style */
+  border-radius: 4px; /* Added border-radius */
+  padding: 15px; /* Added internal padding */
+  background-color: white; /* Ensure white background */
+  margin-top: 20px; /* Space from previous section */
+}
+
+.delivery-info:last-child,
+.product-stock-info:last-child,
+.action-buttons-sidebar:last-child,
+.seller-shop-info:last-child,
+.delivery-guarantees:last-child {
+  border-bottom: none;
+}
+
+.free-shipping-tag {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00a650; /* Verde de envío gratis */
+}
+
+.delivery-info p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.delivery-info a {
+  color: #3483fa;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.delivery-info a:hover {
+  text-decoration: underline;
+}
+
+.quantity-selector {
+  margin-bottom: 20px; /* Space between stock and buttons */
+}
+
+.quantity-selector .stock-available-text {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 8px; /* Space between "Stock disponible" and the input row */
+}
+
+.quantity-selector .quantity-input-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.quantity-selector .quantity-label {
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.quantity-selector select {
+  -webkit-appearance: none; /* Remove default browser styling */
+  -moz-appearance: none;
+  appearance: none;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 10px 30px 10px 15px; /* Add more padding on the right for the custom arrow */
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  position: relative; /* For custom arrow positioning */
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 20 20\' fill=\'white\'%3e%3cpath d=\'M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z\'/%3e%3c/svg%3e');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  margin-right: 5px; /* Space between select and available stock */
+}
+
+.quantity-selector select:focus {
+  box-shadow: 0 0 0 2px #3483fa; /* Focus style */
+}
+
+.quantity-selector .available-stock {
+  font-size: 14px;
+  color: #666;
+  margin-top: 0;
+}
+
+.buy-now-button,
+.add-to-cart-button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-bottom: 10px; /* Espacio entre botones */
+}
+
+.buy-now-button {
+  background-color: #3483fa;
+  color: white;
+}
+
+.buy-now-button:hover {
+  background-color: #2968c8;
+}
+
+.add-to-cart-button {
+  background-color: #fff159;
+  color: #333;
+  border: 1px solid #e0e0e0;
+}
+
+.add-to-cart-button:hover {
+  background-color: #ffe600; /* Amarillo más oscuro en hover */
+}
+
+.delivery-guarantees {
+  border: 1px solid #e0e0e0; /* Added a border to match ML style */
+  border-radius: 4px; /* Added border-radius */
+  padding: 15px; /* Added internal padding */
+  background-color: white; /* Ensure white background */
+  margin-top: 15px; /* Space from previous section */
+  margin-bottom: 15px;
+}
+
+.delivery-guarantees p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.delivery-guarantees p:last-child {
+  margin-bottom: 0;
+}
+
+.delivery-guarantees p i {
+  color: #3483fa; /* Mercado Libre blue for icons */
+  font-size: 16px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .product-main-layout {
+    grid-template-columns: 1fr;
+    padding: 0 15px; /* Pequeño padding en móviles */
+  }
+
+  .product-content-area,
+  .product-sidebar {
+    padding: 15px;
+  }
+
+  .product-gallery-and-info {
+    grid-template-columns: 1fr; /* Una columna para móviles */
+    gap: 15px;
+  }
+
+  .thumbnails-column {
+    flex-direction: row;
+    overflow-x: auto;
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+
+  .thumbnail {
+    width: 40px;
+    height: 40px;
+  }
+
+  .main-image-column img {
+    max-height: 350px;
+  }
+
+  .product-info-column {
+    text-align: center;
+    gap: 10px;
+  }
+  
+  .product-info-column h1 {
+    font-size: 20px;
+  }
+
+  .product-rating {
+    justify-content: center;
+  }
+
+  .original-price-text,
+  .current-price-text,
+  .installments-text {
+    text-align: center;
+  }
+
+  .product-color-selector {
+    justify-content: center;
+  }
+
+  .purchase-options {
+    text-align: center;
+  }
+
+  .action-buttons-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}
+
+.payment-methods-section {
+  background-color: white; /* Added: White background for the section */
+  border: 1px solid #e0e0e0; /* Added: Border to match other sections */
+  border-radius: 4px; /* Added: Border radius */
+  padding: 20px; /* Adjusted: Consistent padding */
+  margin-top: 20px; /* Space from previous section */
+  margin-bottom: 20px;
+  padding-top: 0; /* Removed this specific padding as it's now handled by the general padding */
+  border-bottom: none; /* Removed this specific border */
+}
+
+.payment-methods-section:last-child {
+  border-bottom: none;
+}
+
+.payment-banner {
+  background-color: #00a650; /* Verde de Mercado Libre */
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  text-align: center;
+  margin-top: 0; /* Ensures no extra top margin, as parent now has padding */
+}
+
+.payment-subtitle {
+  font-size: 14px;
+  color: #333;
+  font-weight: 600;
+  margin-top: 15px; /* Added spacing after the banner or previous section */
+  margin-bottom: 8px;
+}
+
+.payment-description {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.credit-card-logos,
+.debit-card-logos,
+.cash-payment-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px; /* Keep consistent margin for each group */
+}
+
+.credit-card-logos:last-of-type,
+.debit-card-logos:last-of-type,
+.cash-payment-logos:last-of-type {
+  margin-bottom: 0; /* Remove bottom margin for the last payment logo group */
+}
+
+.credit-card-logos img,
+.debit-card-logos img,
+.cash-payment-logos img {
+  width: 40px; /* Tamaño de los logos de tarjeta */
+  height: auto;
+  object-fit: contain;
+}
+
+.other-payment-methods-link {
+  font-size: 14px;
+  color: #3483fa;
+  text-decoration: none;
+  display: block;
+  margin-top: 15px;
+}
+
+.other-payment-methods-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments for payment methods */
+@media (max-width: 900px) {
+  .payment-methods-section {
+    padding-top: 10px;
+  }
+
+  .payment-banner {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .payment-subtitle {
+    font-size: 13px;
+  }
+
+  .payment-description {
+    font-size: 11px;
+  }
+
+  .credit-card-logos img,
+  .debit-card-logos img,
+  .cash-payment-logos img {
+    width: 35px;
+  }
+
+  .other-payment-methods-link {
+    font-size: 13px;
+  }
+}
+
+.samsung-products-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+  margin-top: 20px;
+  max-width: 100%; /* Ocupa todo el ancho disponible del contenedor padre */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.seller-shop-info {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+  margin-top: 20px; /* Adjust as needed for spacing */
+  padding-bottom: 0; /* Remove bottom padding as individual elements will have margins */
+  margin-bottom: 20px; /* Space before next section */
+  border-bottom: none; /* Remove existing border */
+}
+
+.seller-name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.seller-products-count {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 5px; /* Adjusted to reduce space */
+}
+
+.mercadolider-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.mercadolider-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url('https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.19.0/assets/icons/mercadolider-v2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: invert(47%) sepia(87%) saturate(302%) hue-rotate(69deg) brightness(97%) contrast(101%);
+}
+
+.mercadolider-level {
+  font-size: 16px;
+  font-weight: 600;
+  color: #00a650; /* Mercado Libre green */
+}
+
+.mercadolider-slogan {
+  font-size: 14px;
+  color: #666;
+  margin-left: 5px; /* Add a small margin-left for spacing */
+  font-weight: 400; /* Ensure regular font weight */
+}
+
+.seller-metrics {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 10px 0;
+  position: relative;
+  margin-top: 20px;
+}
+
+.seller-metrics::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px; /* Altura de la barra verde */
+  background: linear-gradient(to right, #F8D9D9 20%, #FFEB95 20%, #FFEB95 40%, #D9F8D9 40%, #D9F8D9 60%, #95D98A 60%, #95D98A 80%, #00A650 80%, #00A650 100%);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.metric-item {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.metric-item:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #eee;
+}
+
+.metric-value {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.metric-label {
+  font-size: 12px;
+  color: #666;
+}
+
+.metric-icon {
+  font-size: 24px; /* Larger icon size */
+  color: #666;
+}
+
+.metric-icon.check-icon {
+  color: #00a650; /* Green for checked icons */
+}
+
+.go-to-shop-button {
+  width: 100%;
+  padding: 10px;
+  background: #e6f2ff; /* Light blue background for button */
+  border: none; /* No border as per image */
+  border-radius: 6px;
+  color: #3483fa;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-top: 15px;
+  margin-bottom: 20px; /* Spacing before guarantees */
+}
+
+.go-to-shop-button:hover {
+  background-color: #d1e2f7; /* Darker blue on hover */
+}
+
+.magnifying-glass {
+  position: absolute;
+  border: 1px solid #ddd;
+  border-radius: 50%; /* Ensuring it's circular */
+  cursor: crosshair;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  pointer-events: none; /* Allows mouse events to pass through to the image */
+  transform: translate(-50%, -50%); /* Centers the magnifying glass on the cursor */
+  background-size: 200% 200%; /* Adjust as needed for zoom level */
+  background-color: white; /* Added: White background for the magnifying glass */
+}
+
+.product-highlights-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+}
+
+.product-highlights-section h2 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.product-highlights-section ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.product-highlights-section li {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 20px; /* Space for the custom bullet */
+}
+
+.product-highlights-section li::before {
+  content: '•'; /* Custom bullet point */
+  color: #3483fa; /* Mercado Libre blue */
+  font-size: 20px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+}
+
+.view-characteristics-link {
+  font-size: 14px;
+  color: #3483fa;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.view-characteristics-link:hover {
+  text-decoration: underline;
+}
+
