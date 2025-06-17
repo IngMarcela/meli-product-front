@@ -38,8 +38,8 @@ public/
 El proyecto utiliza variables de entorno para la configuración. Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
 
 ```env
-VITE_API_URL=http://127.0.0.1:3000
-VITE_PRODUCT_ID=1001
+VITE_API_URL
+VITE_PRODUCT_ID
 ```
 
 ## 🔄 Cómo correrlo
