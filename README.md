@@ -38,9 +38,17 @@ public/
 El proyecto utiliza variables de entorno para la configuración. Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
 
 ```env
-VITE_API_URL
-VITE_PRODUCT_ID
+# API Configuration
+VITE_API_URL=http://127.0.0.1:3000
+
+# Default Product Configuration
+VITE_PRODUCT_ID=1001
 ```
+
+### Variables de entorno disponibles:
+
+- `VITE_API_URL`
+- `VITE_PRODUCT_ID`
 
 ## 🔄 Cómo correrlo
 
@@ -56,7 +64,8 @@ VITE_PRODUCT_ID
    ```
 
 3. Configura las variables de entorno:
-   - Copia el archivo `.env.example` a `.env`
+   - Crea un archivo `.env` en la raíz del proyecto
+   - Copia las variables del ejemplo anterior
    - Ajusta los valores según tu configuración local
 
 4. Ejecuta la app:
