@@ -4,11 +4,11 @@ Este proyecto es una interfaz web responsiva que simula una página de detalle d
 
 ## 🚀 Características
 
-- Visualización de productos con imágenes, título, descripción, precio, stock y vendedor.
+- Visualización detallada de productos con imágenes, título, descripción, precio, stock y vendedor.
 - Diseño responsive y limpio.
-- Navegación entre lista de productos y detalle.
 - Galería de miniaturas para imágenes del producto.
 - Interacción básica con botones (no funcionales aún) para simular experiencia de compra.
+- Redirección automática al producto destacado (ID: 1001).
 
 ## 🛠️ Tecnologías
 
@@ -21,19 +21,17 @@ Este proyecto es una interfaz web responsiva que simula una página de detalle d
 
 src/
 ├── components/
-│ ├── ProductList.jsx
-│ └── ProductDetail.jsx
+│   ├── common/
+│   │   ├── Header.jsx
+│   │   └── Footer.jsx
+│   └── products/
+│       └── ProductDetail.jsx
 ├── styles/
-│ ├── ProductDetail.css
-│ └── ProductList.css
+│   └── ProductDetail.css
 ├── App.jsx
 ├── index.js
 public/
 ├── index.html
-
-bash
-Copiar
-Editar
 
 ## 🔄 Cómo correrlo
 
@@ -41,20 +39,16 @@ Editar
    ```bash
    git clone https://github.com/IngMarcela/meli-product-front.git
    cd meli-product-front
+   ```
 
 2. Instala las dependencias:
-    npm install
+   ```bash
+   npm install
+   ```
 
 3. Ejecuta la app:
-    npm run dev
-    
+   ```bash
+   npm run dev
+   ```
+   
 Asegúrate de tener el backend corriendo en http://127.0.0.1:3000/products.
-
-📦 Próximas mejoras
-Filtros y búsqueda de productos.
-
-Integración con funcionalidades reales de carrito.
-
-Página del vendedor.
-
-Manejo de estados vacíos o errores.
