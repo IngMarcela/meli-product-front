@@ -9,9 +9,10 @@ export default function ProductDetail() {
   const [zoomEnabled, setZoomEnabled] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [imageSize, setImageSize] = useState({ width: 0, height: 0 });
+  const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
   useEffect(() => {
-    fetch(`http://127.0.0.1:3000/products/${id}`)
+    fetch(`${API_BASE_URL}/products/${id}`)
       .then(res => res.json())
       .then(data => {
         setProduct(data);
