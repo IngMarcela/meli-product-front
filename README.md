@@ -33,6 +33,15 @@ src/
 public/
 ├── index.html
 
+## ⚙️ Configuración
+
+El proyecto utiliza variables de entorno para la configuración. Crea un archivo `.env` en la raíz del proyecto con las siguientes variables:
+
+```env
+VITE_API_URL=http://127.0.0.1:3000
+VITE_PRODUCT_ID=1001
+```
+
 ## 🔄 Cómo correrlo
 
 1. Clona este repositorio:
@@ -46,9 +55,13 @@ public/
    npm install
    ```
 
-3. Ejecuta la app:
+3. Configura las variables de entorno:
+   - Copia el archivo `.env.example` a `.env`
+   - Ajusta los valores según tu configuración local
+
+4. Ejecuta la app:
    ```bash
    npm run dev
    ```
    
-Asegúrate de tener el backend corriendo en http://127.0.0.1:3000/products.
+Asegúrate de tener el backend corriendo en la URL especificada en tu archivo `.env` (por defecto: http://127.0.0.1:3000/products).
